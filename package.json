@@ -1,0 +1,27 @@
+{
+  "name": "oxyforests-metadata-service",
+  "version": "1.0.0",
+  "description": "OxyForests Metadata API Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Leon Acosta <leon@dandelionlabs.io>",
+  "license": "Proprietary",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "images-merger": "^0.2.1",
+    "merge-images": "^2.0.0",
+    "merge-images-v2": "^2.0.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}
